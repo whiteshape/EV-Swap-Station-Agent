@@ -27,15 +27,15 @@
 
 ## 项目文件结构
 EV-Swap-Station-Agent/
-├── README.md # 项目说明文档
-├── main.m # 主程序入口（一键运行）
+├── README.md  # 项目说明文档
+├── main.m  # 主程序入口（一键运行）
 ├── data/
-│ └── generate_data.m # 模拟工业园区换电数据生成器
+│ └── generate_data.m  # 模拟工业园区换电数据生成器
 ├── model/
-│ ├── demand_forecast.m # LSTM 多尺度需求预测模块
-│ └── optimization.m # 多目标优化调度模块
+│ ├── demand_forecast.m  # LSTM 多尺度需求预测模块
+│ └── optimization.m  # 多目标优化调度模块
 └── utils/
-└── visualization.m # 结果可视化绘图模块
+└── visualization.m   # 结果可视化绘图模块
 
 ## 试点运行量化成果
 | 核心指标 | 传统人工运营 | AI Agent优化 | 提升幅度 |
